@@ -1,22 +1,22 @@
 PODS:
-  - ObjCOnly (0.1.0)
-  - ObjcSwiftMix (0.1.0):
-    - ObjCOnly
+  - ObjCOnlyPod (0.1.0)
+  - ObjcSwiftMixPod (0.1.0):
+    - ObjCOnlyPod
 
 DEPENDENCIES:
-  - ObjCOnly (from `ObjCOnly/`)
-  - ObjcSwiftMix (from `ObjcSwiftMix/`)
+  - ObjCOnlyPod (from `ObjCOnly/`)
+  - ObjcSwiftMixPod (from `ObjcSwiftMix/`)
 
 EXTERNAL SOURCES:
-  ObjCOnly:
+  ObjCOnlyPod:
     :path: ObjCOnly/
-  ObjcSwiftMix:
+  ObjcSwiftMixPod:
     :path: ObjcSwiftMix/
 
 SPEC CHECKSUMS:
-  ObjCOnly: a63de293bb18e7b9f9f5853665a7fe16cf3c0f65
-  ObjcSwiftMix: 64ff157cc4d982a18e342b26b4837a1dd0fb2fdb
+  ObjCOnlyPod: 6816cfbf16e7fc4d19ca675c125b0ccf70a294f3
+  ObjcSwiftMixPod: 10c5052b5587646d0a60fec50ce2d6f87f3a3dc1
 
-PODFILE CHECKSUM: 45630a2d238db4181e46933a206a6a259c6f509b
+PODFILE CHECKSUM: 6f298981146e869431d1ebaf6028d105ab60fade
 
 COCOAPODS: 1.5.3

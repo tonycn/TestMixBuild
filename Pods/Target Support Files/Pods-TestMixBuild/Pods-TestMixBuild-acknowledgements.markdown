@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ObjCOnly
+## ObjCOnlyPod
 
 Copyright (c) 2018 tonycn <wujianjun@goto.com>
 
@@ -24,7 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## ObjcSwiftMix
+## ObjcSwiftMixPod
 
 Copyright (c) 2018 tonycn <wujianjun@goto.com>
 
