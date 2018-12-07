@@ -4,8 +4,8 @@ inhibit_all_warnings!
 
 target 'TestMixBuild' do
 
-pod 'ObjCOnly', :path => "ObjCOnly/", :modular_headers => true
+pod 'ObjCOnlyPod', :path => "ObjCOnlyPod/", :modular_headers => true
 
-pod 'ObjcSwiftMix', :path => "ObjcSwiftMix/"
+pod 'ObjcSwiftMixPod', :path => "ObjcSwiftMixPod/"
 
 end
