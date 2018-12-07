@@ -5,3 +5,7 @@ extension NSObject {
         return 0
     }
 }
+
+class SwiftClass: NSObject {
+    
+}
