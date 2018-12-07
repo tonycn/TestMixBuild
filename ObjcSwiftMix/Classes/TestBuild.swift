@@ -6,6 +6,13 @@ extension NSObject {
     }
 }
 
+extension ObjCTest {
+    @objc public var testMethodInObjCTest: CGFloat {
+        let c = Constant()
+        return 0
+    }
+}
+
 class SwiftClass: NSObject {
     
 }

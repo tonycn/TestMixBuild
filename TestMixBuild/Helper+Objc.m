@@ -8,11 +8,28 @@
 
 #import "Helper+Objc.h"
 
-@implementation Helper (Objc)
+//
+//@implementation Helper (Objc)
+//
+//- (NSString *)test
+//{
+//    return [self getName];
+//}
+//
+//@end
 
+#import "Constant.h"
+
+@interface Constant (HHHH)
+
+- (NSString *)test;
+
+@end
+
+@implementation Constant (HHHH)
 - (NSString *)test
 {
-    return [self getName];
+    return @"";
 }
 
 @end

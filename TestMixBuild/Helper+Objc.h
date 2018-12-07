@@ -8,15 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TestMixBuild-Swift.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Helper (Objc)
+//@interface Helper (Objc)
+//
+//- (NSString *)test;
+//
+//@end
 
-- (NSString *)test;
 
-@end
 
 NS_ASSUME_NONNULL_END
