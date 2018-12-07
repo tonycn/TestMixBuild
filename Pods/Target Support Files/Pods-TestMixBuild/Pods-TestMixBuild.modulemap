@@ -1,0 +1,6 @@
+module Pods_TestMixBuild {
+  umbrella header "Pods-TestMixBuild-umbrella.h"
+
+  export *
+  module * { export * }
+}

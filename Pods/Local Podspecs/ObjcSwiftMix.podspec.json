@@ -1,0 +1,27 @@
+{
+  "name": "ObjcSwiftMix",
+  "version": "0.1.0",
+  "summary": "A short description of ObjcSwiftMix.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tonycn": "wujianjun@example.com"
+  },
+  "source": {
+    "git": "https://example.com/ObjcSwiftMix.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "ObjCOnly": [
+
+    ]
+  }
+}
