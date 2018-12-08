@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-
+@import ObjcSwiftMixPod;
 
 NS_ASSUME_NONNULL_BEGIN
 
-//@interface Helper (Objc)
-//
-//- (NSString *)test;
-//
-//@end
+@interface ObjCTest (Objc)
+
+- (NSString *)test;
+
+@end
 
 
 

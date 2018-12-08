@@ -10,15 +10,16 @@
 
 #import "TestMixBuild-Swift.h"
 
-//
-//@implementation Helper (Objc)
-//
-//- (NSString *)test
-//{
-//    return [self getName];
-//}
-//
-//@end
+
+@implementation ObjCTest (Objc)
+
+- (NSString *)test
+{
+    [self testMethod];
+    return @"";
+}
+
+@end
 
 
 #import "Constant.h"

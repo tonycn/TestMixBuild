@@ -5,6 +5,7 @@
 
 @interface ObjCTest : NSObject
 
+- (void)testMethod;
 
 @end
 

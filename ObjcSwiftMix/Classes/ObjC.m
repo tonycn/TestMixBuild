@@ -1,6 +1,8 @@
 
 #import "ObjC.h"
 
+#import "ObjcSwiftMixPod-Swift.h"
+
 @implementation ObjCTest
 
 - (void)testMethod {
@@ -11,11 +13,10 @@
 @end
 
 
-//Question 1 无法使用 Swift 类
-//@interface SwiftClass (ObjCTest)
-//
-//@end
-//
-//@implementation SwiftClass (ObjCTest)
-//
-//@end
+@interface TestBuild (ObjCTest)
+
+@end
+
+@implementation TestBuild (ObjCTest)
+
+@end

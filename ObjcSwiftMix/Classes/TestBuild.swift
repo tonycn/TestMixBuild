@@ -13,6 +13,9 @@ extension ObjCTest {
     }
 }
 
-class TestBuild: NSObject {
-    
+public class TestBuild: NSObject {
+    public var test: CGFloat {
+        let c = Constant()
+        return 0
+    }
 }

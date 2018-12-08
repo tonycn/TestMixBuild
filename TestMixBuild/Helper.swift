@@ -8,8 +8,13 @@
 
 import UIKit
 
+import ObjcSwiftMixPod
+
 class Helper: NSObject {
     @objc func getName() -> String {
+        let a = TestBuild()
+        let b = ObjCTest()
+        print(a, b)
         return ""
     }
 }
