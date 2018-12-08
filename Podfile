@@ -6,6 +6,6 @@ target 'TestMixBuild' do
 
 pod 'ObjCOnlyPod', :path => "ObjCOnly/", :modular_headers => true
 
-pod 'ObjcSwiftMixPod', :path => "ObjcSwiftMix/"
+pod 'ObjcSwiftMixPod', :path => "ObjcSwiftMix/", :modular_headers => true
 
 end

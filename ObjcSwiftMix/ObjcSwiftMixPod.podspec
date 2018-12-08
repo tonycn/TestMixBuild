@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Classes/**/*'
   
-    s.dependency 'ObjCOnlyPod'
+  s.dependency 'ObjCOnlyPod'
 
   # s.resource_bundles = {
   #   'ObjcSwiftMix' => ['ObjcSwiftMix/Assets/*.png']

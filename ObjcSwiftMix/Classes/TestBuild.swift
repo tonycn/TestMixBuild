@@ -13,6 +13,6 @@ extension ObjCTest {
     }
 }
 
-class SwiftClass: NSObject {
+class TestBuild: NSObject {
     
 }

@@ -8,6 +8,8 @@
 
 #import "Helper+Objc.h"
 
+#import "TestMixBuild-Swift.h"
+
 //
 //@implementation Helper (Objc)
 //
@@ -18,6 +20,7 @@
 //
 //@end
 
+
 #import "Constant.h"
 
 @interface Constant (HHHH)
@@ -27,6 +30,25 @@
 @end
 
 @implementation Constant (HHHH)
+
+- (NSString *)test
+{
+    return @"";
+}
+
+@end
+
+
+#import "ObjC.h"
+
+@interface ObjCTest (HHHH)
+
+- (NSString *)test;
+
+@end
+
+@implementation ObjCTest (HHHH)
+
 - (NSString *)test
 {
     return @"";
