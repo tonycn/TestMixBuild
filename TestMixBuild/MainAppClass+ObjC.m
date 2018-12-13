@@ -45,7 +45,9 @@
 @end
 
 
-#import "MixPod_ObjC.h"
+@import ObjcSwiftMixPod;
+// 例子 使用 @import ObjcSwiftMixPod; 代替 #import "MixPod_ObjC.h"
+// #import "MixPod_ObjC.h"
 
 @interface MixPod_ObjC (HHHH)
 

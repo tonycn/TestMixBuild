@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@import ObjcSwiftMixPod;
-@import ObjCOnlyPod;
+@import ObjcSwiftMixPod.Swift;
+
+#import "OCPod_Constant.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
