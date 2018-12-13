@@ -28,6 +28,6 @@ DerivedSources/ObjcSwiftMixPod-Swift.h
 ### 资料
 - [CocoaPods Open Issue " [1.5.0, static libs] error: clang importer creation failed "](https://github.com/CocoaPods/CocoaPods/issues/7584)
 
-- [Github 测试项目](https://github.com/tonycn/TestMixBuild/tree/master/TestMixBuild)
+- [Github 测试项目](https://github.com/tonycn/TestMixBuild/)
 
 - [LLVM Modules](https://clang.llvm.org/docs/Modules.html)
