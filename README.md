@@ -16,7 +16,18 @@
 ### 问题 4 Declaration of 'MixPod_ObjC' must be imported from module 'ObjcSwiftMixPod' before it is required
 使用 @import ObjcSwiftMixPod; 代替 \#import "MixPod_ObjC.h"
 
-### 资料
-[CocoaPods Open Issue " [1.5.0, static libs] error: clang importer creation failed "](https://github.com/CocoaPods/CocoaPods/issues/7584)
+### 问题 5 Mix Swif ObjC 的 Pod 中需要一个 {PodName}.h 的空 header 文件
 
-[Github 测试项目](https://github.com/tonycn/TestMixBuild/tree/master/TestMixBuild)
+```
+DerivedSources/ObjcSwiftMixPod-Swift.h
+
+#import <ObjcSwiftMixPod/ObjcSwiftMixPod.h>
+
+```
+
+### 资料
+- [CocoaPods Open Issue " [1.5.0, static libs] error: clang importer creation failed "](https://github.com/CocoaPods/CocoaPods/issues/7584)
+
+- [Github 测试项目](https://github.com/tonycn/TestMixBuild/tree/master/TestMixBuild)
+
+- [LLVM Modules](https://clang.llvm.org/docs/Modules.html)
