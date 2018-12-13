@@ -9,7 +9,7 @@
 #import "MainAppClass+ObjC.h"
 
 #import "MixPod_ObjC.h"
-/// Point 在 .m 中使用 import 
+/// 例子 在 .m 中使用 import
 // @import ObjcSwiftMixPod;
 #import "TestMixBuild-Swift.h"
 

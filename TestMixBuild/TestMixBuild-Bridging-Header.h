@@ -6,6 +6,3 @@
 
 
 #import "MainAppClass+ObjC.h"
-
-/// Point 无法引入 ObjC Header
-//#import "MixPod_ObjC.h"

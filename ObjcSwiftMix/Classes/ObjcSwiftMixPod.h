@@ -8,5 +8,4 @@
 #ifndef ObjcSwiftMixPod_h
 #define ObjcSwiftMixPod_h
 
-
 #endif /* ObjcSwiftMixPod_h */

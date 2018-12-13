@@ -13,7 +13,7 @@ extension MixPod_ObjC {
     }
 }
 
-/// Point: 需要制定 public 才能在外部使用
+/// 例子: 需要制定 public 才能在外部使用
 public class MixPod_Swift: NSObject {
     /// Point @objc
     @objc public var test: CGFloat {

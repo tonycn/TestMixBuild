@@ -1,7 +1,7 @@
 
 #import "MixPod_ObjC.h"
 
-/// Point: 使用 Pod 中的 Swift Class
+/// 例子: 使用 Pod 中的 Swift Class
 #import "ObjcSwiftMixPod-Swift.h"
 
 @implementation MixPod_ObjC
