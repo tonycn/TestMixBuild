@@ -9,15 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @import ObjcSwiftMixPod;
+@import ObjCOnlyPod;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ObjCTest (Objc)
+@interface MixPod_Swift (MainApp)
 
-- (NSString *)test;
+- (NSString *)mainApp_test;
 
 @end
 
+@interface MainAppClass_Constant : OCPod_Constant
+
+
+@end
 
 
 NS_ASSUME_NONNULL_END

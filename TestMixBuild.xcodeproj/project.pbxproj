@@ -13,8 +13,8 @@
 		7526548221BAAD6D00FAE206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7526548121BAAD6D00FAE206 /* Assets.xcassets */; };
 		7526548521BAAD6D00FAE206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526548321BAAD6D00FAE206 /* LaunchScreen.storyboard */; };
 		7526548821BAAD6D00FAE206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526548721BAAD6D00FAE206 /* main.m */; };
-		7526549021BAAE4A00FAE206 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526548F21BAAE4A00FAE206 /* Helper.swift */; };
-		7526549321BAAE6800FAE206 /* Helper+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526549221BAAE6800FAE206 /* Helper+Objc.m */; };
+		7526549021BAAE4A00FAE206 /* MainAppClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526548F21BAAE4A00FAE206 /* MainAppClass.swift */; };
+		7526549321BAAE6800FAE206 /* MainAppClass+ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526549221BAAE6800FAE206 /* MainAppClass+ObjC.m */; };
 		D3074860282CED129D086A0E /* libPods-TestMixBuild.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937165FB6E262F05BECC5872 /* libPods-TestMixBuild.a */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +30,9 @@
 		7526548621BAAD6D00FAE206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7526548721BAAD6D00FAE206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7526548E21BAAE4A00FAE206 /* TestMixBuild-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMixBuild-Bridging-Header.h"; sourceTree = "<group>"; };
-		7526548F21BAAE4A00FAE206 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		7526549121BAAE6800FAE206 /* Helper+Objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helper+Objc.h"; sourceTree = "<group>"; };
-		7526549221BAAE6800FAE206 /* Helper+Objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Helper+Objc.m"; sourceTree = "<group>"; };
+		7526548F21BAAE4A00FAE206 /* MainAppClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppClass.swift; sourceTree = "<group>"; };
+		7526549121BAAE6800FAE206 /* MainAppClass+ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainAppClass+ObjC.h"; sourceTree = "<group>"; };
+		7526549221BAAE6800FAE206 /* MainAppClass+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainAppClass+ObjC.m"; sourceTree = "<group>"; };
 		937165FB6E262F05BECC5872 /* libPods-TestMixBuild.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMixBuild.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEA89B4377CB19CA4A96A3B /* Pods-TestMixBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMixBuild.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMixBuild/Pods-TestMixBuild.release.xcconfig"; sourceTree = "<group>"; };
 		B85A599D0A7B12C3FE635C7D /* Pods-TestMixBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMixBuild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMixBuild/Pods-TestMixBuild.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,9 +92,9 @@
 				7526547921BAAD6B00FAE206 /* AppDelegate.m */,
 				7526547B21BAAD6B00FAE206 /* ViewController.h */,
 				7526547C21BAAD6B00FAE206 /* ViewController.m */,
-				7526549121BAAE6800FAE206 /* Helper+Objc.h */,
-				7526549221BAAE6800FAE206 /* Helper+Objc.m */,
-				7526548F21BAAE4A00FAE206 /* Helper.swift */,
+				7526549121BAAE6800FAE206 /* MainAppClass+ObjC.h */,
+				7526549221BAAE6800FAE206 /* MainAppClass+ObjC.m */,
+				7526548F21BAAE4A00FAE206 /* MainAppClass.swift */,
 				7526547E21BAAD6B00FAE206 /* Main.storyboard */,
 				7526548121BAAD6D00FAE206 /* Assets.xcassets */,
 				7526548321BAAD6D00FAE206 /* LaunchScreen.storyboard */,
@@ -199,10 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7526547D21BAAD6B00FAE206 /* ViewController.m in Sources */,
-				7526549321BAAE6800FAE206 /* Helper+Objc.m in Sources */,
+				7526549321BAAE6800FAE206 /* MainAppClass+ObjC.m in Sources */,
 				7526548821BAAD6D00FAE206 /* main.m in Sources */,
 				7526547A21BAAD6B00FAE206 /* AppDelegate.m in Sources */,
-				7526549021BAAE4A00FAE206 /* Helper.swift in Sources */,
+				7526549021BAAE4A00FAE206 /* MainAppClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

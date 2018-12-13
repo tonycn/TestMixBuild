@@ -10,12 +10,20 @@ import UIKit
 
 import ObjcSwiftMixPod
 
-class Helper: NSObject {
+class MainAppClass: NSObject {
     @objc func getName() -> String {
-        let a = TestBuild()
-        let b = ObjCTest()
+        let a = MixPod_Swift()
+        let b = MixPod_ObjC()
         print(a, b)
         return ""
     }
+    
+    @objc func getGender() -> String {
+        let a = MixPod_Swift()
+        let b = MixPod_ObjC()
+        print(a, b)
+        return ""
+    }
+
 }
 

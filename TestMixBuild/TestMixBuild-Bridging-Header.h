@@ -5,8 +5,7 @@
 #import <Foundation/Foundation.h>
 
 
-#import "Helper+Objc.h"
+#import "MainAppClass+ObjC.h"
 
-
-//Question 2 无法引入 ObjC Header
-//#import "ObjC.h"
+/// Point 无法引入 ObjC Header
+//#import "MixPod_ObjC.h"
