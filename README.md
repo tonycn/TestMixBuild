@@ -16,7 +16,7 @@
 ### 问题 4 Declaration of 'MixPod_ObjC' must be imported from module 'ObjcSwiftMixPod' before it is required
 使用 @import ObjcSwiftMixPod; 代替 \#import "MixPod_ObjC.h"
 
-### 问题 5 Mix Swif ObjC 的 Pod 中需要一个 {PodName}.h 的空 header 文件
+### 问题 5 Mix Swif ObjC 的 Pod 中需要一个 {PodName}.h 的空 header 文件,  可以让 Objective C 使用 Swift 的代码
 
 ```
 DerivedSources/ObjcSwiftMixPod-Swift.h
