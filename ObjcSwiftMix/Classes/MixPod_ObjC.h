@@ -1,11 +1,16 @@
 
 @import UIKit;
 
-#import "OCPod_Constant.h"
+#import <ObjCOnlyPod/OCPod_Constant.h>
 
 @interface MixPod_ObjC : NSObject
 
 - (void)testMethod;
 
+@end
+
+
+@interface UIView (MixPod_ObjC)
+- (void)test;
 @end
 

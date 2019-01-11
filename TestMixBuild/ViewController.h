@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MainAppClass+ObjC.h"
+
+@import ObjCOnlyPod;
+
 @interface ViewController : UIViewController
 
 

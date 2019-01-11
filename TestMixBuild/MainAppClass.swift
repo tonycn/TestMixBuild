@@ -9,6 +9,7 @@
 import UIKit
 
 import ObjcSwiftMixPod
+import ObjCOnlyPod
 
 class MainAppClass: NSObject {
     @objc func getName() -> String {

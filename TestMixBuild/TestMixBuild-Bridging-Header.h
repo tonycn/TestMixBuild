@@ -4,5 +4,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "ViewController.h"
 
+#import <ObjcSwiftMixPod/MixPod_ObjC.h>
 #import "MainAppClass+ObjC.h"
+#import "MixPod_ObjC.h"

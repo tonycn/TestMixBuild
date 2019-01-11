@@ -21,3 +21,11 @@
 @implementation MixPod_Swift (ObjCCategory)
 
 @end
+
+
+@implementation UIView (MixPod_ObjC)
+- (void)test
+{
+    
+}
+@end

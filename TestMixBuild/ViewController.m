@@ -8,6 +8,14 @@
 
 #import "ViewController.h"
 
+
+
+@import ObjCOnlyPod;
+@import ObjcSwiftMixPod;
+
+
+#import <TestMixBuild-Swift.h>
+
 @interface ViewController ()
 
 @end
@@ -16,6 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    MixPod_ObjC *obj = [[MixPod_ObjC alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
