@@ -3,7 +3,9 @@
 
 #import "OCPod_Constant.h"
 
-@interface MixPod_ObjC : NSObject
+@protocol MyProtocol;
+
+@interface MixPod_ObjC : NSObject <MyProtocol>
 
 - (void)testMethod;
 
