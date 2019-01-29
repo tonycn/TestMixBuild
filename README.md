@@ -25,6 +25,10 @@ DerivedSources/ObjcSwiftMixPod-Swift.h
 
 ```
 
+### 问题 6 Mix Swif ObjC 的 Pod 中如果需要再 Objective C 的 header 文件中使用 Swift Protocol 会出错。
+注意：需要在 header 文件中使用 @protocol, 然后再 .m 中 import #import "{PodName}-Swift.h"
+详细请见：https://cjwirth.com/tech/circular-references-swift-objc
+
 ### 资料
 - [CocoaPods Open Issue " [1.5.0, static libs] error: clang importer creation failed "](https://github.com/CocoaPods/CocoaPods/issues/7584)
 
